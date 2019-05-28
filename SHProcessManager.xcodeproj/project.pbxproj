@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB951B512213BAD0008B58A1 /* SHProcessManagerPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = EB951B502213BAD0008B58A1 /* SHProcessManagerPreferences.h */; };
+		EB951B532213BAD0008B58A1 /* SHProcessManagerPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = EB951B522213BAD0008B58A1 /* SHProcessManagerPreferences.m */; };
+		EB951B552213BAD0008B58A1 /* SHProcessManagerPreferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EB951B542213BAD0008B58A1 /* SHProcessManagerPreferences.tiff */; };
+		EB951B582213BAD0008B58A1 /* SHProcessManagerPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB951B562213BAD0008B58A1 /* SHProcessManagerPreferences.xib */; };
+		EB9CB65122132A2600E5D48D /* us.shaahin.SHProcessManagerHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = EBA69A792213249B00E74991 /* us.shaahin.SHProcessManagerHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		EBA69A212212E52200E74991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A202212E52200E74991 /* AppDelegate.swift */; };
+		EBA69A252212E52400E74991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA69A242212E52400E74991 /* Assets.xcassets */; };
+		EBA69A282212E52400E74991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA69A262212E52400E74991 /* Main.storyboard */; };
+		EBA69A8D2213268700E74991 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A852213268700E74991 /* main.swift */; };
+		EBA69A8E2213268700E74991 /* HelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A862213268700E74991 /* HelperProtocol.swift */; };
+		EBA69A8F2213268700E74991 /* HelperAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A872213268700E74991 /* HelperAuthorization.swift */; };
+		EBA69A902213268700E74991 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A882213268700E74991 /* Helper.swift */; };
+		EBA69A912213268700E74991 /* HelperConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A892213268700E74991 /* HelperConstants.swift */; };
+		EBA69A922213268700E74991 /* HelperAuthorizationRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A8A2213268700E74991 /* HelperAuthorizationRight.swift */; };
+		EBA69A93221326B700E74991 /* HelperAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A872213268700E74991 /* HelperAuthorization.swift */; };
+		EBA69A94221326B700E74991 /* HelperAuthorizationRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A8A2213268700E74991 /* HelperAuthorizationRight.swift */; };
+		EBA69A95221326B700E74991 /* HelperConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A892213268700E74991 /* HelperConstants.swift */; };
+		EBA69A96221326B700E74991 /* HelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A862213268700E74991 /* HelperProtocol.swift */; };
+		EBA69A98221326E300E74991 /* AppProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A97221326E300E74991 /* AppProtocol.swift */; };
+		EBA69A99221326E300E74991 /* AppProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A97221326E300E74991 /* AppProtocol.swift */; };
+		EBA69A9B221326F100E74991 /* CodesignCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA69A9A221326F100E74991 /* CodesignCheck.swift */; };
+		EBF9A38422159F03000C4A21 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9A38122159F03000C4A21 /* DataProvider.swift */; };
+		EBF9A38522159F03000C4A21 /* HelperConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9A38222159F03000C4A21 /* HelperConnectionManager.swift */; };
+		EBF9A38622159F03000C4A21 /* ProcessListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9A38322159F03000C4A21 /* ProcessListViewController.swift */; };
+		EBF9A38822159F0E000C4A21 /* ShellHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9A38722159F0E000C4A21 /* ShellHelper.swift */; };
+		EBF9A38922159F0E000C4A21 /* ShellHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF9A38722159F0E000C4A21 /* ShellHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBA69A80221324DD00E74991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA69A152212E52200E74991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA69A782213249B00E74991;
+			remoteInfo = SwiftPrivilegedHelper;
+		};
+		EBF82A88221414D0000E16B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA69A152212E52200E74991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB951B4D2213BAD0008B58A1;
+			remoteInfo = SHProcessManagerPreferences;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB9CB65022132A0900E5D48D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				EB9CB65122132A2600E5D48D /* us.shaahin.SHProcessManagerHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA69A772213249B00E74991 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB951B4E2213BAD0008B58A1 /* SHProcessManager Prefs.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SHProcessManager Prefs.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB951B502213BAD0008B58A1 /* SHProcessManagerPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHProcessManagerPreferences.h; sourceTree = "<group>"; };
+		EB951B522213BAD0008B58A1 /* SHProcessManagerPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHProcessManagerPreferences.m; sourceTree = "<group>"; };
+		EB951B542213BAD0008B58A1 /* SHProcessManagerPreferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SHProcessManagerPreferences.tiff; sourceTree = "<group>"; };
+		EB951B572213BAD0008B58A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SHProcessManagerPreferences.xib; sourceTree = "<group>"; };
+		EB951B592213BAD0008B58A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA69A1D2212E52200E74991 /* SHProcessManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHProcessManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA69A202212E52200E74991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBA69A242212E52400E74991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBA69A272212E52400E74991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBA69A292212E52400E74991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA69A2A2212E52400E74991 /* SHProcessManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SHProcessManager.entitlements; sourceTree = "<group>"; };
+		EBA69A792213249B00E74991 /* us.shaahin.SHProcessManagerHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = us.shaahin.SHProcessManagerHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA69A852213268700E74991 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EBA69A862213268700E74991 /* HelperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperProtocol.swift; sourceTree = "<group>"; };
+		EBA69A872213268700E74991 /* HelperAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperAuthorization.swift; sourceTree = "<group>"; };
+		EBA69A882213268700E74991 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EBA69A892213268700E74991 /* HelperConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperConstants.swift; sourceTree = "<group>"; };
+		EBA69A8A2213268700E74991 /* HelperAuthorizationRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperAuthorizationRight.swift; sourceTree = "<group>"; };
+		EBA69A8B2213268700E74991 /* Helper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Helper-Launchd.plist"; sourceTree = "<group>"; };
+		EBA69A8C2213268700E74991 /* Helper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Helper-Info.plist"; sourceTree = "<group>"; };
+		EBA69A97221326E300E74991 /* AppProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppProtocol.swift; sourceTree = "<group>"; };
+		EBA69A9A221326F100E74991 /* CodesignCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodesignCheck.swift; sourceTree = "<group>"; };
+		EBA69A9D2213276B00E74991 /* CodeSignUpdate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = CodeSignUpdate.sh; sourceTree = "<group>"; };
+		EBF9A38122159F03000C4A21 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		EBF9A38222159F03000C4A21 /* HelperConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperConnectionManager.swift; sourceTree = "<group>"; };
+		EBF9A38322159F03000C4A21 /* ProcessListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessListViewController.swift; sourceTree = "<group>"; };
+		EBF9A38722159F0E000C4A21 /* ShellHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB951B4B2213BAD0008B58A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA69A1A2212E52200E74991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA69A762213249B00E74991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB951B4F2213BAD0008B58A1 /* SHProcessManagerPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				EB951B502213BAD0008B58A1 /* SHProcessManagerPreferences.h */,
+				EB951B522213BAD0008B58A1 /* SHProcessManagerPreferences.m */,
+				EB951B542213BAD0008B58A1 /* SHProcessManagerPreferences.tiff */,
+				EB951B562213BAD0008B58A1 /* SHProcessManagerPreferences.xib */,
+				EB951B592213BAD0008B58A1 /* Info.plist */,
+			);
+			path = SHProcessManagerPreferences;
+			sourceTree = "<group>";
+		};
+		EBA69A142212E52200E74991 = {
+			isa = PBXGroup;
+			children = (
+				EBA69A1F2212E52200E74991 /* SHProcessManager */,
+				EBA69A9C2213270D00E74991 /* Scripts */,
+				EB951B4F2213BAD0008B58A1 /* SHProcessManagerPreferences */,
+				EBA69A1E2212E52200E74991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA69A1E2212E52200E74991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA69A1D2212E52200E74991 /* SHProcessManager.app */,
+				EBA69A792213249B00E74991 /* us.shaahin.SHProcessManagerHelper */,
+				EB951B4E2213BAD0008B58A1 /* SHProcessManager Prefs.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA69A1F2212E52200E74991 /* SHProcessManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBF9A38B22159F4B000C4A21 /* Helpers */,
+				EBF9A38A22159F17000C4A21 /* Classes */,
+				EBF9A38C22159F6A000C4A21 /* View Controllers */,
+				EBA69A842213267900E74991 /* Helper */,
+				EBA69A202212E52200E74991 /* AppDelegate.swift */,
+				EBA69A242212E52400E74991 /* Assets.xcassets */,
+				EBA69A262212E52400E74991 /* Main.storyboard */,
+				EBA69A292212E52400E74991 /* Info.plist */,
+				EBA69A2A2212E52400E74991 /* SHProcessManager.entitlements */,
+			);
+			path = SHProcessManager;
+			sourceTree = "<group>";
+		};
+		EBA69A842213267900E74991 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EBA69A9A221326F100E74991 /* CodesignCheck.swift */,
+				EBA69A97221326E300E74991 /* AppProtocol.swift */,
+				EBA69A8C2213268700E74991 /* Helper-Info.plist */,
+				EBA69A8B2213268700E74991 /* Helper-Launchd.plist */,
+				EBA69A882213268700E74991 /* Helper.swift */,
+				EBA69A872213268700E74991 /* HelperAuthorization.swift */,
+				EBA69A8A2213268700E74991 /* HelperAuthorizationRight.swift */,
+				EBA69A892213268700E74991 /* HelperConstants.swift */,
+				EBA69A862213268700E74991 /* HelperProtocol.swift */,
+				EBA69A852213268700E74991 /* main.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EBA69A9C2213270D00E74991 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				EBA69A9D2213276B00E74991 /* CodeSignUpdate.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		EBF9A38A22159F17000C4A21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBF9A38122159F03000C4A21 /* DataProvider.swift */,
+				EBF9A38222159F03000C4A21 /* HelperConnectionManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EBF9A38B22159F4B000C4A21 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EBF9A38722159F0E000C4A21 /* ShellHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EBF9A38C22159F6A000C4A21 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBF9A38322159F03000C4A21 /* ProcessListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EB951B492213BAD0008B58A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB951B512213BAD0008B58A1 /* SHProcessManagerPreferences.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB951B4D2213BAD0008B58A1 /* SHProcessManager Prefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB951B5A2213BAD0008B58A1 /* Build configuration list for PBXNativeTarget "SHProcessManager Prefs" */;
+			buildPhases = (
+				EB951B492213BAD0008B58A1 /* Headers */,
+				EB951B4A2213BAD0008B58A1 /* Sources */,
+				EB951B4B2213BAD0008B58A1 /* Frameworks */,
+				EB951B4C2213BAD0008B58A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SHProcessManager Prefs";
+			productName = SHProcessManagerPreferences;
+			productReference = EB951B4E2213BAD0008B58A1 /* SHProcessManager Prefs.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EBA69A1C2212E52200E74991 /* SHProcessManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA69A2D2212E52400E74991 /* Build configuration list for PBXNativeTarget "SHProcessManager" */;
+			buildPhases = (
+				EB9CB64F2213299700E5D48D /* ShellScript */,
+				EBA69A192212E52200E74991 /* Sources */,
+				EBA69A1A2212E52200E74991 /* Frameworks */,
+				EBA69A1B2212E52200E74991 /* Resources */,
+				EB9CB65022132A0900E5D48D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF82A89221414D0000E16B5 /* PBXTargetDependency */,
+				EBA69A81221324DD00E74991 /* PBXTargetDependency */,
+			);
+			name = SHProcessManager;
+			productName = SHProcessManager;
+			productReference = EBA69A1D2212E52200E74991 /* SHProcessManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBA69A782213249B00E74991 /* us.shaahin.SHProcessManagerHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA69A7D2213249B00E74991 /* Build configuration list for PBXNativeTarget "us.shaahin.SHProcessManagerHelper" */;
+			buildPhases = (
+				EB9CB65222132AD900E5D48D /* ShellScript */,
+				EBA69A752213249B00E74991 /* Sources */,
+				EBA69A762213249B00E74991 /* Frameworks */,
+				EBA69A772213249B00E74991 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = us.shaahin.SHProcessManagerHelper;
+			productName = SwiftPrivilegedHelper;
+			productReference = EBA69A792213249B00E74991 /* us.shaahin.SHProcessManagerHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA69A152212E52200E74991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					EB951B4D2213BAD0008B58A1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EBA69A1C2212E52200E74991 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
+					};
+					EBA69A782213249B00E74991 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EBA69A182212E52200E74991 /* Build configuration list for PBXProject "SHProcessManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBA69A142212E52200E74991;
+			productRefGroup = EBA69A1E2212E52200E74991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA69A1C2212E52200E74991 /* SHProcessManager */,
+				EBA69A782213249B00E74991 /* us.shaahin.SHProcessManagerHelper */,
+				EB951B4D2213BAD0008B58A1 /* SHProcessManager Prefs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB951B4C2213BAD0008B58A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB951B552213BAD0008B58A1 /* SHProcessManagerPreferences.tiff in Resources */,
+				EB951B582213BAD0008B58A1 /* SHProcessManagerPreferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA69A1B2212E52200E74991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA69A252212E52400E74991 /* Assets.xcassets in Resources */,
+				EBA69A282212E52400E74991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB9CB64F2213299700E5D48D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}\"/Scripts/CodeSignUpdate.sh\n";
+		};
+		EB9CB65222132AD900E5D48D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}\"/Scripts/CodeSignUpdate.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB951B4A2213BAD0008B58A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB951B532213BAD0008B58A1 /* SHProcessManagerPreferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA69A192212E52200E74991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA69A93221326B700E74991 /* HelperAuthorization.swift in Sources */,
+				EBA69A94221326B700E74991 /* HelperAuthorizationRight.swift in Sources */,
+				EBF9A38822159F0E000C4A21 /* ShellHelper.swift in Sources */,
+				EBA69A95221326B700E74991 /* HelperConstants.swift in Sources */,
+				EBF9A38522159F03000C4A21 /* HelperConnectionManager.swift in Sources */,
+				EBF9A38422159F03000C4A21 /* DataProvider.swift in Sources */,
+				EBA69A98221326E300E74991 /* AppProtocol.swift in Sources */,
+				EBA69A96221326B700E74991 /* HelperProtocol.swift in Sources */,
+				EBF9A38622159F03000C4A21 /* ProcessListViewController.swift in Sources */,
+				EBA69A212212E52200E74991 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA69A752213249B00E74991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA69A8D2213268700E74991 /* main.swift in Sources */,
+				EBA69A9B221326F100E74991 /* CodesignCheck.swift in Sources */,
+				EBA69A912213268700E74991 /* HelperConstants.swift in Sources */,
+				EBA69A8F2213268700E74991 /* HelperAuthorization.swift in Sources */,
+				EBF9A38922159F0E000C4A21 /* ShellHelper.swift in Sources */,
+				EBA69A902213268700E74991 /* Helper.swift in Sources */,
+				EBA69A922213268700E74991 /* HelperAuthorizationRight.swift in Sources */,
+				EBA69A8E2213268700E74991 /* HelperProtocol.swift in Sources */,
+				EBA69A99221326E300E74991 /* AppProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBA69A81221324DD00E74991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA69A782213249B00E74991 /* us.shaahin.SHProcessManagerHelper */;
+			targetProxy = EBA69A80221324DD00E74991 /* PBXContainerItemProxy */;
+		};
+		EBF82A89221414D0000E16B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB951B4D2213BAD0008B58A1 /* SHProcessManager Prefs */;
+			targetProxy = EBF82A88221414D0000E16B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB951B562213BAD0008B58A1 /* SHProcessManagerPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB951B572213BAD0008B58A1 /* Base */,
+			);
+			name = SHProcessManagerPreferences.xib;
+			sourceTree = "<group>";
+		};
+		EBA69A262212E52400E74991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA69A272212E52400E74991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB951B5B2213BAD0008B58A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HEZ4SXCB33;
+				INFOPLIST_FILE = SHProcessManagerPreferences/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.SHProcessManagerPreferences;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		EB951B5C2213BAD0008B58A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HEZ4SXCB33;
+				INFOPLIST_FILE = SHProcessManagerPreferences/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.SHProcessManagerPreferences;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		EBA69A2B2212E52400E74991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBA69A2C2212E52400E74991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EBA69A2E2212E52400E74991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SHProcessManager/SHProcessManager.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HEZ4SXCB33;
+				INFOPLIST_FILE = SHProcessManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.SHProcessManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EBA69A2F2212E52400E74991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SHProcessManager/SHProcessManager.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HEZ4SXCB33;
+				INFOPLIST_FILE = SHProcessManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.SHProcessManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		EBA69A7E2213249B00E74991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEZ4SXCB33;
+				INFOPLIST_FILE = "$(SRCROOT)/SHProcessManager/Helper/Helper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(SRCROOT)/SHProcessManager/Helper/Helper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"$(SRCROOT)/SHProcessManager/Helper/Helper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.SHProcessManagerHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EBA69A7F2213249B00E74991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEZ4SXCB33;
+				INFOPLIST_FILE = "$(SRCROOT)/SHProcessManager/Helper/Helper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(SRCROOT)/SHProcessManager/Helper/Helper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"$(SRCROOT)/SHProcessManager/Helper/Helper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.SHProcessManagerHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB951B5A2213BAD0008B58A1 /* Build configuration list for PBXNativeTarget "SHProcessManager Prefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB951B5B2213BAD0008B58A1 /* Debug */,
+				EB951B5C2213BAD0008B58A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA69A182212E52200E74991 /* Build configuration list for PBXProject "SHProcessManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA69A2B2212E52400E74991 /* Debug */,
+				EBA69A2C2212E52400E74991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA69A2D2212E52400E74991 /* Build configuration list for PBXNativeTarget "SHProcessManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA69A2E2212E52400E74991 /* Debug */,
+				EBA69A2F2212E52400E74991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA69A7D2213249B00E74991 /* Build configuration list for PBXNativeTarget "us.shaahin.SHProcessManagerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA69A7E2213249B00E74991 /* Debug */,
+				EBA69A7F2213249B00E74991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA69A152212E52200E74991 /* Project object */;
+}
